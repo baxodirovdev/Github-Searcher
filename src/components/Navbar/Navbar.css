@@ -1,0 +1,25 @@
+.navbar {
+  flex-grow: 1;
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: var(--main-color) !important;
+}
+.navbar__logo {
+  font-size: 2rem !important;
+  flex-grow: 1;
+  font-weight: 600 !important;
+}
+.navbar__icon {
+  color: white !important;
+  margin-right: 20px !important;
+}
+.MuiSvgIcon-fontSizeLarge {
+  font-size: 3rem !important;
+}
+.navbar__link{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: white;
+}

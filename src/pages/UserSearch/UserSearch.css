@@ -1,0 +1,26 @@
+.userList {
+  margin-top: 30px;
+}
+.useritem {
+  display: flex;
+  align-items: center;
+  padding: 14px 0;
+  border: 1px solid #d1d5da;
+  border-left: none;
+  border-right: none;
+}
+.useritem__img {
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.useritem__name {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--main-color);
+  text-decoration: none;
+  outline: none;
+}
+.useritem__name:hover {
+  text-decoration: underline;
+}

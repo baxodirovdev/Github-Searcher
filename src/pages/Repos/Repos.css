@@ -1,0 +1,23 @@
+.repos__commits {
+  margin: 20px 0;
+}
+.repos__commit {
+  display: flex;
+  align-items: center;
+  padding: 14px 0;
+  border: 1px solid #d1d5da;
+  border-left: none;
+  border-right: none;
+}
+.repos__owner,
+.repos__link {
+  font-size: 2rem;
+}
+
+.repos__button {
+  width: 100%;
+  margin: 40px 0;
+  background: var(--main-color) !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
